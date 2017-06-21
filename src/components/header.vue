@@ -7,14 +7,14 @@
 <script>
 import { mapGetters } from 'vuex'
 export default{
-    data(){
-        return{}
-    },
-    computed: {
-        ...mapGetters([
-            'contents'
-        ])
-    }
+  data () {
+    return {}
+  },
+  computed: {
+    ...mapGetters([
+      'contents'
+    ])
+  }
 }
 </script>
 
